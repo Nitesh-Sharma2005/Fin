@@ -1,0 +1,5 @@
+{
+  "name": "FinMind - Financial Assistant",
+  "description": "A smart financial reminder and management system powered by Gemini. Track EMIs, bills, and subscriptions with AI-driven insights and voice-friendly summaries.",
+  "requestFramePermissions": []
+}
