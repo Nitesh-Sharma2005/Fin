@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FinMind - Financial Assistant</title>
 
-  <!-- Tailwind CDN (ok for demo) -->
+  <!-- Tailwind CDN (ok for demo / small apps) -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Google Font -->
@@ -13,12 +13,13 @@
 
   <style>
     body {
-      font-family: 'Inter', sans-serif;
-      background-color: #0f172a;
-      color: #f8fafc;
       margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a; /* dark slate */
+      color: #f8fafc;
     }
 
+    /* Smooth Scrollbar */
     ::-webkit-scrollbar {
       width: 8px;
       height: 8px;
@@ -39,7 +40,7 @@
 <body>
   <div id="root"></div>
 
-  <!-- THIS LINE STARTS REACT APP -->
-  <script type="module" src="/src/main.tsx"></script>
+  <!-- React Entry File (MUST MATCH SRC FOLDER) -->
+  <script type="module" src="/src/index.tsx"></script>
 </body>
 </html>
